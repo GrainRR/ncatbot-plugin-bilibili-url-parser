@@ -37,9 +37,9 @@ pip install aiohttp
 3. 重启 NcatBot 或重载插件
 
 ```bash
-# 克隆插件到插件目录
-cd /path/to/ncatbot/plugins
-git clone https://github.com/GEYUANwuqi/ncatbot.plugin.BilibiliUrlParser.git
+cd /path/to/your/ncatbot/plugins
+git clone https://github.com/GrainRR/ncatbot-plugin-bilibili-url-parser.git bilibili_url_parser
+pip install -r bilibili_url_parser/requirements.txt
 ```
 
 ## ⚙️ 配置
